@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Door 1 - The Sword</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background: url('sword.jpg') no-repeat center center/cover;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .content {
+            background: rgba(0, 0, 0, 0.6);
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            max-width: 500px;
+        }
+
+        .doors {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .option {
+            width: 150px;
+            height: 150px;
+            background: linear-gradient(145deg, #232526, #414345);
+            border: 3px solid #fca311;
+            border-radius: 15px;
+            color: #fca311;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            transition: all 0.3s;
+        }
+
+        .option:hover {
+            background: #fca311;
+            color: #111;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h1>The Sword</h1>
+        <p>You find an ancient sword resting on a pedestal. What do you do?</p>
+        <div class="doors">
+            <a href="ending sword1.html" class="option">Take the Sword</a>
+            <a href="ending sword2.html" class="option">Leave it</a>
+            <a href="ending sword3.html" class="option">Inspect the Room</a>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
